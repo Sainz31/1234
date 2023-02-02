@@ -1,3 +1,5 @@
+/**
+ */
 radio.onReceivedNumber(function (receivedNumber) {
     while (enviado == 0) {
         basic.pause(100)
@@ -32,6 +34,9 @@ radio.onReceivedNumber(function (receivedNumber) {
             `)
     }
 })
+function ganador (núm: number) {
+	
+}
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         . # # # .
